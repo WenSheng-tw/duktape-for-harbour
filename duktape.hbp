@@ -1,0 +1,47 @@
+# Duktape Harbour Project
+
+# 源文件
+duktape.c
+duktape_core.c
+test2.prg
+
+# 包含目錄
+-I"D:\bcc74\include"
+-I"D:\bcc74\include\windows\crtl"
+-I"."
+
+# 庫目錄
+-L"D:\bcc74\lib"
+
+# 函式庫
+-lcws2_32
+-lcuser32
+-lcadvapi32
+-lcwsock32
+-lcwininet
+-lcwinmm
+-lcmsvcrt
+-lcduktape
+
+# 編譯器選項
+-cflag=-DHB_OS_WIN
+-cflag=-D__BORLANDC__
+-cflag=-D_WIN32
+-cflag=-DWIN32
+-cflag=-D__WIN32__
+-cflag=-D__WIN32
+-cflag=-D__STDC__
+-cflag=-D__STDC_VERSION__=199901L
+-cflag=-D__STDC_HOSTED__=1
+-cflag=-D__STDC_ISO_10646__=201103L
+-cflag=-D__STDC_UTF_16__=1
+-cflag=-D__STDC_UTF_32__=1
+-cflag=-D__STDC_IEC_559__=1
+-cflag=-D__STDC_IEC_559_COMPLEX__=1
+-cflag=-D__STDC_ANALYZABLE__=1
+-cflag=-D__STDC_LIB_EXT1__=1
+-cflag=-D__STDC_NO_ATOMICS__=1
+-cflag=-D__STDC_NO_COMPLEX__=1
+-cflag=-D__STDC_NO_THREADS__=1
+-cflag=-D__STDC_NO_VLA__=1
+-cflag=-std=c99 
