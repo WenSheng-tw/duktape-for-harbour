@@ -1,5 +1,5 @@
 *.js linguist-language=javascript
-*.prg linguist-language=harbour
-*.ch linguist-language=harbour
+*.prg linguist-language=harbour-project,xbase
+*.ch linguist-language=harbour-project,xbase
 *.c linguist-language=C
 *.h linguist-language=C
