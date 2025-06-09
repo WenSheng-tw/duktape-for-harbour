@@ -1,5 +1,8 @@
+*.prg linguist-detectable=true
+*.c linguist-detectable=false
+
+*.prg linguist-language=xbase
+*.ch linguist-language=xbase
 *.js linguist-language=javascript
-*.prg linguist-language=harbour-project,xbase
-*.ch linguist-language=harbour-project,xbase
 *.c linguist-language=C
 *.h linguist-language=C
